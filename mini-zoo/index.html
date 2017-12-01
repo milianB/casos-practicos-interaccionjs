@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mini zoo</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body> <!-- -->
+    <button id="agregar-Imagen"></button>
+    <select id="select" onchange="pasarAlgo(event)">
+      <option >Selecciona una opcion</option>
+      <option value="original">Original</option>
+      <option data.filtro= "sepia" value="sepia">Sepia</option><!--accediendo a cada filtro por una condicion especial data=sepia -->
+      <option data.filtro= "gray" value="white-black">Blanco y negro</option>
+      <option data.filtro= "negative" value="negative-colors">Colores en negativo</option>
+    </select>
+    <div class="contenedor-imagenes"><!-- poniendo clases para manejar los divs-->
+      <img src="assets/images/conejo.jpg" alt="conejo" class="animal">
+      <p></p>
+    </div>
+    <div class="contenedor-imagenes">
+      <img src="assets/images/gatito.jpg" alt="gatito" class="animal">
+      <p></p>
+    </div>
+    <div class="contenedor-imagenes">
+      <img src="assets/images/leon.jpg" alt="leon" class="animal">
+      <p></p>
+    </div>
+    <div class="contenedor-imagenes">
+      <img src="assets/images/lobo.jpg" alt="lobo" class="animal">
+      <p></p>
+    </div>
+    <div class="contenedor-imagenes">
+      <img src="assets/images/perrito.jpg" alt="perrito" class="animal">
+      <p></p>
+    </div>
+    <div class="contenedor-imagenes">
+      <img src="assets/images/tigre.jpg" alt="tigre" class="animal">
+      <p></p>
+    </div>
+ <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>

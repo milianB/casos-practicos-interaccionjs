@@ -1,0 +1,37 @@
+body{
+  font-family: verdana;
+}
+
+button{
+  width: 80px;
+}
+
+nav{
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+ul{ /*eliminar puntos de listas no ordenadas*/
+  list-style: none;
+}
+
+li:hover{
+  background-color: green;
+}
+
+a{ /*quitamos linea debajo, subrayado*/
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.enabled-menu{
+  display: block;
+}
+
+.disabled-menu{
+  display: none;
+}
